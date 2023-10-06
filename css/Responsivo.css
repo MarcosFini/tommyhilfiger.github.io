@@ -1,0 +1,42 @@
+@media (max-width: 1000px) {
+    .conteudo-vantagem {
+        grid-template-columns: 1fr; 
+    }
+    .subtitulo {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        gap: 30px;
+    }
+    .header .marca {
+        padding: 20px;
+        margin-bottom: 30px;
+     }
+
+     .menu {
+        margin-bottom: 30px;
+     }
+    .conteudo {
+        grid-template-columns: 1fr;
+    }
+    .introducao::before {
+        content: "";
+        width: 60px;
+        height: 10px;
+        background: #e21e21;
+        position: absolute;
+        top: -10px;
+        left: 45%;    
+    }
+    .introducao  {
+        text-align: left;
+        justify-items: start;
+    }
+    .subtitulo {
+        font-size: 3rem;
+    }
+
+}
